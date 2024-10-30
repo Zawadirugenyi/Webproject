@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IndeBook - Reviewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>IndeBook - Reviewer Dashboard</h1>
+    <nav>
+      <a href="index.html">Manager</a>
+      <a href="publisher.html">Publisher</a>
+      <a href="writer.html">Writer</a>
+      <a href="artist.html">Artist</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Review and Approve Drafts</h2>
+    <p>As a Reviewer, you can review drafts submitted by writers and provide feedback.</p>
+
+    <div class="review-section">
+      <h3>Submitted Drafts for Review</h3>
+      <ul>
+        <li>Draft 1 - <button>Approve</button> <button>Reject</button></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IndeBook - Writer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>IndeBook - Writer Dashboard</h1>
+    <nav>
+      <a href="index.html">Manager</a>
+      <a href="publisher.html">Publisher</a>
+      <a href="artist.html">Artist</a>
+      <a href="reviewer.html">Reviewer</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Submit Drafts</h2>
+    <p>As a Writer, you can submit drafts of books for review.</p>
+
+    <div class="draft-submission">
+      <h3>Submit Draft</h3>
+      <textarea placeholder="Write your draft here..."></textarea>
+      <button>Submit Draft</button>
+    </div>
+
+    <div class="submitted-drafts">
+      <h3>Submitted Drafts</h3>
+      <ul>
+        <li>Draft 1 - <button>Edit</button> <button>Delete</button></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

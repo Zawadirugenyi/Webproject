@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IndeBook - Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>IndeBook - Manager Dashboard</h1>
+    <nav>
+      <a href="publisher.html">Publisher</a>
+      <a href="writer.html">Writer</a>
+      <a href="artist.html">Artist</a>
+      <a href="reviewer.html">Reviewer</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Manage Team</h2>
+    <p>As a Manager, you can invite members, assign roles, and manage team settings.</p>
+
+    <div class="team-management">
+      <h3>Create Team</h3>
+      <input type="text" id="teamName" placeholder="Team Name">
+      <textarea id="teamDescription" placeholder="Team Description"></textarea>
+      <button>Create Team</button>
+    </div>
+
+    <div class="invite-members">
+      <h3>Invite Members</h3>
+      <input type="email" id="memberEmail" placeholder="Member Email">
+      <button>Invite Member</button>
+    </div>
+
+    <div class="manage-roles">
+      <h3>Assign Roles</h3>
+      <ul>
+        <li>John Doe - <select>
+          <option>Manager</option>
+          <option>Publisher</option>
+          <option>Writer</option>
+          <option>Artist</option>
+          <option>Reviewer</option>
+        </select></li>
+        <li>Jane Smith - <select>
+          <option>Manager</option>
+          <option selected>Publisher</option>
+          <option>Writer</option>
+          <option>Artist</option>
+          <option>Reviewer</option>
+        </select></li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

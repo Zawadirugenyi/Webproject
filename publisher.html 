@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IndeBook - Publisher</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>IndeBook - Publisher Dashboard</h1>
+    <nav>
+      <a href="index.html">Manager</a>
+      <a href="writer.html">Writer</a>
+      <a href="artist.html">Artist</a>
+      <a href="reviewer.html">Reviewer</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Upload and Manage eBooks</h2>
+    <p>As a Publisher, you can upload eBooks and manage publications.</p>
+
+    <div class="book-management">
+      <h3>Upload eBook</h3>
+      <input type="file" id="ebookFile">
+      <input type="text" id="ebookTitle" placeholder="eBook Title">
+      <button>Upload eBook</button>
+    </div>
+
+    <div class="manage-publications">
+      <h3>Published Books</h3>
+      <ul>
+        <li>"Book Title 1" - <button>Edit</button> <button>Delete</button></li>
+        <li>"Book Title 2" - <button>Edit</button> <button>Delete</button></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

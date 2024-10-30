@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IndeBook - Artist</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>IndeBook - Artist Dashboard</h1>
+    <nav>
+      <a href="index.html">Manager</a>
+      <a href="publisher.html">Publisher</a>
+      <a href="writer.html">Writer</a>
+      <a href="reviewer.html">Reviewer</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Create and Upload Artwork</h2>
+    <p>As an Artist, you can create and upload artwork for eBooks.</p>
+
+    <div class="art-upload">
+      <h3>Upload Artwork</h3>
+      <input type="file" id="artworkFile">
+      <button>Upload Artwork</button>
+    </div>
+
+    <div class="uploaded-art">
+      <h3>Uploaded Artworks</h3>
+      <ul>
+        <li>Artwork 1 - <button>Edit</button> <button>Delete</button></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
